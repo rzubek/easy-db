@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDB", "EasyDB\EasyDB.csproj", "{514A0743-1A22-4999-B596-9F0B9E7786A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30881B7B-1A1F-4DD9-A094-4DDEE550CADA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDB Tests", "EasyDB Tests\EasyDB Tests.csproj", "{71D25D5F-43B4-47EC-8F69-90307AE77886}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{514A0743-1A22-4999-B596-9F0B9E7786A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514A0743-1A22-4999-B596-9F0B9E7786A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514A0743-1A22-4999-B596-9F0B9E7786A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514A0743-1A22-4999-B596-9F0B9E7786A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D25D5F-43B4-47EC-8F69-90307AE77886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D25D5F-43B4-47EC-8F69-90307AE77886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D25D5F-43B4-47EC-8F69-90307AE77886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D25D5F-43B4-47EC-8F69-90307AE77886}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43F2851E-49D1-4FD1-B29F-9C688F097E32}
+	EndGlobalSection
+EndGlobal
